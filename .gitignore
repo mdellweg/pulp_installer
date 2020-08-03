@@ -4,6 +4,8 @@
 /roles/geerlingguy.postgresql
 /vagrant/playbooks/roles/geerlingguy.postgresql
 local.*-config.yml
+/build
+*.tar.gz
 
 # Ignores for Vagrant related items
 .vagrant/
