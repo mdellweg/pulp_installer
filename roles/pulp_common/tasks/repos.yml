@@ -120,7 +120,7 @@
         path: "{{ repo_file.stdout }}"
         section: "Stream-PowerTools"
         option: enabled
-        value: 1
+        value: "1"
         no_extra_spaces: true
       when: repo_file.rc == 0
       become: true
